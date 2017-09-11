@@ -1,0 +1,17 @@
+{
+  "name": "redis_proxy",
+  "version": "1.0.0",
+  "description": "segment home assignment 1",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "bash ./e2e_test.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lru-cache": "^4.1.1",
+    "minimist": "^1.2.0",
+    "redis": "^2.8.0",
+    "redis-proto": "^2.1.0"
+  }
+}
